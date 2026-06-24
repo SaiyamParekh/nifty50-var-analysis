@@ -32,14 +32,6 @@ used in institutional portfolio risk tools, rather than a single-time-series exe
 - All three methods share the same backward-looking covariance matrix as an input, and
   none of them account for correlations spiking during stress periods
 
-## Next steps
-
-1. Backtesting (Kupiec proportion-of-failures test, Christoffersen independence test)
-2. GARCH-based volatility instead of a static covariance matrix
-3. Cap-weighting to match actual Nifty 50 index composition
-4. Factor decomposition (market beta, sector factors) to attribute risk to systematic
-   sources
-
 ## Tools
 
 Python, pandas, numpy, scipy, yfinance, matplotlib.
